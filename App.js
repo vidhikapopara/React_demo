@@ -1,13 +1,11 @@
 import "./App.css";
-import React from "react";
-import Home from "./components/Homee";
+import User from "./user";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <>
+      <User />
+    </>
   );
-}
-
+};
 export default App;
